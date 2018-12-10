@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color: #F0F0F0;
+  padding: 1em, 5em
+}
+
+.dark-body {
+  background-color: black;
+  text-align: center;
+  padding: 1em, 5em
+}
+
+.body-lost {
+  background-color: #841818;
+}
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-bottom: 1em;
+  color: #4C4C4C;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 7px solid #CFCFCF;
+  border-radius: 20%;
+}
+
+.btn-dark {
+  border-radius: 100%;
+}
+
+.btnTheme {
+  margin: 25px;
+  margin-top: 7em;
+  display: inline-block;
+  font-size: 0.8em;
+  height: 50px;
+  width: 200px;
+  font-family: 'Press Start 2P', arial;
+  border-radius: 5%;
+  border: 2px solid #CFCFCF;
+}
+
+.btnTheme-dark {
+  background-color: black;
+  color: grey;
+}
+
+
+
+.playAgainButton {
+  margin-bottom: 25px;
+  margin-top: 0;
+  display: inline-block;
+  font-size: 0.8em;
+  height: 50px;
+  width: 200px;
+  font-family: 'Press Start 2P', arial;
+  border-radius: 5%;
+  border: 2px solid #CFCFCF;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #E53B3B;
+}
+
+.red-dark {
+  background-color: black;
+  border-color: #E53B3B;
+}
+
+.green {
+  background-color: #8EE000;
+}
+
+.green-dark {
+  background-color: black;
+  border-color: #8EE000;
+}
+
+.blue {
+  background-color: #14D4F4;
+}
+
+.blue-dark {
+  background-color: black;
+  border-color: #14D4F4
+}
+
+.yellow {
+  background-color: #FFC300;
+}
+
+.yellow-dark {
+  border-color: #FFC300;
+  background-color: black;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.credits {
+  font-size: 0.7em;
+  color: grey;
+  margin-top: 7em;
+}
+
+a {
+  color: grey;
+}
